@@ -327,6 +327,7 @@ header {
 /* intro section */
 
 .hero{
+  border-bottom: 10px solid var(--clr-accent);
   justify-content: center;
   width: 100vw;
   height: 100vh;
@@ -348,6 +349,7 @@ header {
 
 @media (min-width: 600px) {
   .intro {
+
     display: grid;
     width: min-content;
     margin: 0 auto;
@@ -374,6 +376,7 @@ header {
     left: -1.5em;
     width: calc(100% + 1.5em);
   }
+  
 }
 
 .my-services {
@@ -467,6 +470,7 @@ header {
     position: relative;
     z-index: 2;
   }
+  
 }
 
 a[data-tool-tip] {
