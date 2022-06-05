@@ -12,13 +12,25 @@ import VideoJS from "./VideoJS.js"
 function App() {
 
   return (
-    <div className="containerSnap"> 
-      <Header />
-      <VideoJS/>
-      <WhoIAM />
-      <WhatIDo />
-      <MyWork/>
-      <Footer />
+    <div className="scroll-container"> 
+      <Header 
+        className="scroll-area"
+      />
+      <VideoJS
+        className="scroll-area"
+      />
+      <WhoIAM 
+      className="scroll-area"
+      />
+      <WhatIDo 
+      className="scroll-area"
+      />
+      <MyWork
+      className="scroll-area"
+      />
+      <Footer 
+      className="scroll-area"
+      />
     </div>
   );
 }
