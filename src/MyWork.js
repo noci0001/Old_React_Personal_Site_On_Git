@@ -1,5 +1,9 @@
-let ProjectImage1 = require("https://voicefoundry.com/wp-content/uploads/2018/09/feature-aws.jpg")
-let Logo = require("./img/finalArtwork.png")
+//let ProjectImage1 = require("https://voicefoundry.com/wp-content/uploads/2018/09/feature-aws.jpg")
+//let Logo = require("./img/finalArtwork.png")
+//<img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
+//<img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
+//<img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
+//<img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
 
 export default function MyWork(){
     return (
@@ -10,22 +14,22 @@ export default function MyWork(){
             <div className="portfolio">
                 
                 <a href="https://www.youtube.com/" className="portfolio__item">
-                    <img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
+                    
                 </a>
 
                 
                 <a href="https://www.youtube.com/" className="portfolio__item">
-                    <img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
+                    
                 </a>
 
                 
                 <a href="https://www.youtube.com/" className="portfolio__item">
-                    <img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
+                    
                 </a>
 
                
                 <a href="https://www.youtube.com/" className="portfolio__item">
-                    <img src={Logo} width="250px" alt="Describe the project" className="portfolio__img"/>
+                    
                 </a>
             </div>
 

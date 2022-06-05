@@ -2,8 +2,9 @@ import React from "react";
 import "./index.css";
 
 
-let Logo = require("./img/finalArtwork.png")
-let ProfilePhoto = require('./img/SamProfilePicture.jpg')
+//let Logo = require("./img/finalArtwork.png")
+//let ProfilePhoto = require('./img/SamProfilePicture.jpg')
+//<img src={ProfilePhoto} width="400px" alt="Samuel Nocita smiling" className="intro__img"/>
 
 export default function Header(props){
 
@@ -54,7 +55,7 @@ export default function Header(props){
                  </h1>
                  
                   <p className="section__subtitle section__subtitle--intro" id="monospace__effect"> Frontend Software Engineer </p>
-                 <img src={ProfilePhoto} width="400px" alt="Samuel Nocita smiling" className="intro__img"/>
+                  
              </section> 
         </div>
     )

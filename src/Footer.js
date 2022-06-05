@@ -1,4 +1,6 @@
-let Logo = require("./img/finalArtwork.png")
+//let Logo = require("./img/finalArtwork.png")
+//<li className="social-list__item"><a className="social-list__link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i className="fa-brands fa-linkedin"></i></a></li>
+//<img src={Logo} width="200px" className="endLogo"/>
 
 export default function Footer(){
     return (
@@ -8,9 +10,11 @@ export default function Footer(){
             <ul className="social-list">
                 <li className="social-list__item"><a className="social-list__link" href={Logo}><i className="fa-brands fa-instagram"></i></a></li>
                 <li className="social-list__item"><a className="social-list__link" href={Logo}><i className="fa-brands fa-github"></i></a></li>
-                <li className="social-list__item"><a className="social-list__link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i className="fa-brands fa-linkedin"></i></a></li>
+                
             </ul>
-            <img src={Logo} width="200px" className="endLogo"/>
+            
+
+
         </footer>
         </div>
     )
