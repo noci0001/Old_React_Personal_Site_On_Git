@@ -8,6 +8,8 @@ import React from 'react'
     //<source src={Portrait} type="video/mp4" alt="Sam coding at his desk"></source> 
 //</video>
 
+//<img src={PortraitOfSam} alt="Portrait of Sam" className="about-me__img"/>
+
 export default function WhoIAM(){
     <noscript>
                 <div className="video-wrapper">
@@ -30,7 +32,7 @@ export default function WhoIAM(){
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe obcaecati optio praesentium consequatur sit ipsa non corporis, fugit harum id?</p> 
             </div>
 
-            <img src={PortraitOfSam} alt="Portrait of Sam" className="about-me__img"/>
+            
 
         </section>
         

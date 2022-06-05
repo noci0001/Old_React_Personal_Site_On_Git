@@ -5,6 +5,7 @@ import "./index.css";
 //let Logo = require("./img/finalArtwork.png")
 //let ProfilePhoto = require('./img/SamProfilePicture.jpg')
 //<img src={ProfilePhoto} width="400px" alt="Samuel Nocita smiling" className="intro__img"/>
+//<img src={Logo} alt="samInTheCloud Logo"/>
 
 export default function Header(props){
 
@@ -30,7 +31,9 @@ export default function Header(props){
         <div>
             <header>
             <div className="logo">
-                <img src={Logo} alt="samInTheCloud Logo"/>
+                
+
+
             </div>
             <button className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger" onClick={toggle}></span>
