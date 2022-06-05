@@ -202,6 +202,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  
 }
 
 .nav {
@@ -321,8 +322,17 @@ header {
 
 /* intro section */
 
+.hero{
+  height: 100vh;
+  display: flex;
+}
+
 .intro {
+  margin: auto;
+  align-content: center;
   position: relative;
+  justify-content: center;
+  
 }
 
 .intro__img {

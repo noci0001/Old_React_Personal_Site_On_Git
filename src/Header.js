@@ -28,7 +28,7 @@ export default function Header(props){
     }
 
     return (
-        <div>
+        <div className="hero">
             <header>
             <div className="logo">
                 
