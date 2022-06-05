@@ -42,10 +42,9 @@ export default function Header(props){
             <nav className="nav">
                     <ul className="nav__list">
                             <li className="nav__item"><a href="#home" className="nav__link">Home</a></li>
-                            <li className="nav__item"><a href="#services" className="nav__link">My Services</a></li>
                             <li className="nav__item"><a href="#about" className="nav__link">About me</a></li>
+                            <li className="nav__item"><a href="#services" className="nav__link">My Services</a></li>
                             <li className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
-                            <li className="nav__item"><a href="#book" className="nav__link">Book a consultation</a></li>
                         </ul>
                 </nav>
 
@@ -56,6 +55,7 @@ export default function Header(props){
                  <h1 className="section__title section__title--intro ">
                      Hi, I am <strong> Samuel Nocita</strong>
                  </h1>
+                 
                  
                   <p className="section__subtitle section__subtitle--intro" id="monospace__effect"> Frontend Software Engineer </p>
                   

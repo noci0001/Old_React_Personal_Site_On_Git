@@ -10,10 +10,10 @@ import Footer from "./Footer.js"
 function App() {
 
   return (
-    <div>
+    <div className="containerSnap"> 
       <Header />
-      <WhatIDo />
       <WhoIAM />
+      <WhatIDo />
       <MyWork/>
       <Footer />
     </div>
