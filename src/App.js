@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          The build is now running correctly 
         </a>
       </header>
     </div>
